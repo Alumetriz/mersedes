@@ -1,7 +1,7 @@
 /* FONTS 
 
 font-family: 'Roboto Condensed', sans-serif;
-
+font-family: 'Corporate-A-Bold';
 
 */
 
@@ -52,7 +52,7 @@ ul {
 }
 
 .header {
-
+margin-bottom: 150px;
 }
 .header__top {
     display: flex;
@@ -118,4 +118,25 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 300px;
+}
+.concept {
+    
+    margin-bottom: 150px;
+}
+.concept__inner {
+    max-width: 900px;
+    margin-left: auto;
+}
+.section__title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Corporate-A-Bold';
+    color: #F402A2;
+    font-size: 18px;
+    line-height: 120%;
+}
+.concept__text {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 25px;
 }
