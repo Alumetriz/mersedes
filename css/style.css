@@ -1,0 +1,44 @@
+/* FONTS 
+
+font-family: 'Roboto Condensed', sans-serif;
+
+
+*/
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #070A1B;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
